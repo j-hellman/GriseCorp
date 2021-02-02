@@ -7,5 +7,10 @@ The purpose of this project is to rebuild [GriseCorp's website](http://www.grise
 # Título: Reconstrução - [GriseCorp website](http://www.grisecorp.com)
 
 ## Descrição
-O objetivo deste projeto é reconstruir [GriseCorp's website](http://www.grisecorp.com) para por em prática meu código. Além disso, adicionarei novas funcionalidades e tentarei tornar o site ainda mais responsível. 
-  
+O objetivo deste projeto é reconstruir [GriseCorp's website](http://www.grisecorp.com) para por em prática meu código. Além disso, adicionarei novas funcionalidades e tentarei tornar o site ainda mais responsível.
+
+## General comments / Comentários gerais
+### jan 02-2021:
+  - Index file created / Arquivo index criado;
+  - TODO / FAZER:
+    - Finish Contact page / Terminar página contatos
