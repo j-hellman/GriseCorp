@@ -1,0 +1,147 @@
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Wapper the home page */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
+}
+
+
+/* Homepage logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  padding-bottom: 3em;
+
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  letter-spacing: 0.5em;
+}
+
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: right;
+  line-height: 4em;
+  padding: 0.5em 1em 0;
+  /* position: fixed; */
+
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 2em;
+  letter-spacing: 0.3em;
+  color: white;
+  font-size: 18px;
+}
+
+
+/* Containers */
+
+.container-title {
+  text-align: center;
+  margin: 0;
+  font-size: 35px;
+  font-variant: small-caps;
+  letter-spacing: 0.2em;
+  padding: 2em 0 0.2em;
+}
+
+.container-description {
+  width: 30em;
+  font-size: 17px;
+  color: #696969;
+
+  text-align: center;
+  line-height: 1.5em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 2rem;
+  max-width: 55em;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 1em;
+
+  text-align: center;
+  line-height: 1.5em;
+  border-radius: 1rem;
+  background-color: #DCDCDC;
+}
+
+.cards > i {
+  order: -1;
+  font-size: 40px;
+}
+
+.cards > h3 {
+  font-variant: small-caps;
+  margin-bottom: 0.3em;
+}
+
+.cards > button {
+  width: 8em;
+  padding: 0.3em;
+  align-self: center;
+
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  background-color: teal;
+}
+
+/* Contact Form */
+form {
+  max-width: 80ch;
+  min-width: 20vw;
+  margin: auto;
+}
+
+.text-field p label {
+  width: 20ch;
+
+}
+
+.text-field p input {
+  width: 50ch;
+}
+
+.text-field p textarea {
+  width: 60ch;
+}
+
+
+/* Footer */
+footer {
+  color: white;
+  background-color: black;
+  line-height: 2em;
+  text-align: center;
+}
