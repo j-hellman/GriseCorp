@@ -17,4 +17,5 @@ O objetivo deste projeto é reconstruir [GriseCorp's website](http://www.griseco
   
   - ### Feb 02-2021:
     - CSS file created / Arquivo CSS criado;
-    - Finish Contact page / Terminar página contatos
+    - TODO / FAZER:
+      - Finish Contact page / Terminar página contatos
