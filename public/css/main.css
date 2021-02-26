@@ -33,11 +33,13 @@ html {
 nav {
   display: flex;
   justify-content: right;
-  line-height: 4em;
+  line-height: 3em;
   padding: 0.5em 1em 0;
-  /* position: fixed; */
 
+  position: fixed;
+  right: 0;
   background-color: black;
+  width: 100vw;
 }
 
 nav ul {
